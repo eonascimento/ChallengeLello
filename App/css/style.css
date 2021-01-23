@@ -1,4 +1,17 @@
-.section-grid{
-    margin-top: 20px;
-    background-color: blue;
+.section-header{
+    height: 540px;
+    background: var(--unnamed-color-ebf6fa) 0% 0% no-repeat padding-box;
+    background: #EBF6FA 0% 0% no-repeat padding-box;
+}
+
+.section-middle{
+    height: 616px;
+    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.section-footer{
+    height: 826px;
+    background: var(--unnamed-color-f7f7f7) 0% 0% no-repeat padding-box;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
 }
