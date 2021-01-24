@@ -1,3 +1,65 @@
+:root {
+  /* Colors: */
+  --unnamed-color-2d5676: #2d5676;
+  --unnamed-color-f7f7f7: #f7f7f7;
+  --unnamed-color-ebf6fa: #ebf6fa;
+  --unnamed-color-333333: #333333;
+  --unnamed-color-cccccc: #cccccc;
+  --unnamed-color-ffffff: #ffffff;
+  --unnamed-color-2988b5: #2988b5;
+  --unnamed-color-e2173d: #e2173d;
+  --unnamed-color-666666: #666666;
 
+  /* Font/text values */
+  --unnamed-font-family-roboto: Roboto;
+  --unnamed-font-style-normal: normal;
+  --unnamed-font-weight-bold: bold;
+  --unnamed-font-weight-normal: normal;
+  --unnamed-font-size-18: 18px;
+  --unnamed-font-size-22: 22px;
+  --unnamed-font-size-26: 26px;
+  --unnamed-font-size-32: 32px;
+  --unnamed-character-spacing-0: 0px;
+  --unnamed-line-spacing-21: 21px;
+  --unnamed-line-spacing-25: 25px;
+  --unnamed-line-spacing-30: 30px;
+  --unnamed-line-spacing-38: 38px;
+}
 
-
+/* Character Styles */
+.unnamed-character-style-1 {
+  font-family: var(--unnamed-font-family-roboto);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-32);
+  line-height: var(--unnamed-line-spacing-38);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-666666);
+}
+.unnamed-character-style-2 {
+  font-family: var(--unnamed-font-family-roboto);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-normal);
+  font-size: var(--unnamed-font-size-18);
+  line-height: var(--unnamed-line-spacing-21);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-666666);
+}
+.unnamed-character-style-3 {
+  font-family: var(--unnamed-font-family-roboto);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-22);
+  line-height: var(--unnamed-line-spacing-25);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-666666);
+}
+.unnamed-character-style-4 {
+  font-family: var(--unnamed-font-family-roboto);
+  font-style: var(--unnamed-font-style-normal);
+  font-weight: var(--unnamed-font-weight-bold);
+  font-size: var(--unnamed-font-size-26);
+  line-height: var(--unnamed-line-spacing-30);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-666666);
+}
