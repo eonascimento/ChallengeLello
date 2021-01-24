@@ -3,10 +3,13 @@
     <meta charset="uft-8">
     <head>
         <title>Challenge Lello</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/base/normalize.css">
+        <link rel="stylesheet" href="css/base/reset.css">
+        <link rel="stylesheet" href="css/base/grid.css">
+        <link rel="stylesheet" href="css/base/style.css">
+        <link rel="stylesheet" href="css/sections/header/section-header.css">
+        <link rel="stylesheet" href="css/sections/footer/section-footer.css">
+        <link rel="stylesheet" href="css/sections/middle/section.middle.css">
     </head>
     <body>
         <div class="container section-header">   
@@ -24,7 +27,19 @@
             </div>
             <div class="grid-8">
                 <div class="section-header-form">
-                    
+                    <label>Faça seu cadastro:</label><br>
+                    <form action="#">
+                        <label for="fname">Nome:</label><br>
+                        <input type="text" name="name"><br>
+
+                        <label for="femail">E-mail:</label><br>
+                        <input type="text" name="email"><br>
+
+                        <label for="fphone">Celular:</label><br>
+                        <input type="text" name="phone"><br>
+
+                        <button onclick="">Cadastrar</button>
+                    </form> 
                 </div>
             </div>          
         </div>

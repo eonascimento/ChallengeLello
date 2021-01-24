@@ -4,19 +4,6 @@
     background: #EBF6FA 0% 0% no-repeat padding-box;
 }
 
-.section-middle{
-    height: 616px;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-}
-
-.section-footer{
-    height: 826px;
-    background: var(--unnamed-color-f7f7f7) 0% 0% no-repeat padding-box;
-    background: #F7F7F7 0% 0% no-repeat padding-box;
-}
-
-
 .section-header-content {
     margin: 114px 0px 106px 375px ;
 }
