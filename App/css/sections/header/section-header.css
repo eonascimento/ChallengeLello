@@ -1,48 +1,53 @@
-.section-header{
-    height: 540px;
-    background: var(--unnamed-color-ebf6fa) 0% 0% no-repeat padding-box;
-    background: #EBF6FA 0% 0% no-repeat padding-box;
+.section-header {
+  height: 540px;
+  background: var(--unnamed-color-ebf6fa) 0% 0% no-repeat padding-box;
+  background: #ebf6fa 0% 0% no-repeat padding-box;
 }
 
 .section-header-content {
-    margin: 114px 0px 106px 375px ;
+  margin: 114px 0px 106px 375px;
 }
 
 .section-header-content-title {
-    margin: 10px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) 36px/42px var(--unnamed-font-family-roboto);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-2d5676);
-    text-align: left;
-    font: normal normal bold 36px/42px Roboto;
-    letter-spacing: 0px;
-    color: #2D5676;
-    opacity: 1;
+  margin: 10px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    36px/42px var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2d5676);
+  text-align: left;
+  font: normal normal bold 36px/42px Roboto;
+  letter-spacing: 0px;
+  color: #2d5676;
+  opacity: 1;
 }
 
 .section-header-content-paragraph {
-    margin: 10px;
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-22)/var(--unnamed-line-spacing-25) var(--unnamed-font-family-roboto);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-666666);
-    text-align: left;
-    font: normal normal normal 22px/25px Roboto;
-    letter-spacing: 0px;
-    color: #666666;
+  margin: 10px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-22) /
+    var(--unnamed-line-spacing-25) var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-666666);
+  text-align: left;
+  font: normal normal normal 22px/25px Roboto;
+  letter-spacing: 0px;
+  color: #666666;
 }
 
-.section-header-content-list{
-    margin: 10px;
-    list-style: square inside url("sqpurple.gif");
+.section-header-content-list {
+  margin: 10px;
+  list-style: square inside url("sqpurple.gif");
 }
 
 .section-header-content-list-item {
-    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-18)/var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
-    letter-spacing: var(--unnamed-character-spacing-0);
-    color: var(--unnamed-color-666666);
-    text-align: left;
-    font: normal normal normal 18px/21px Roboto;
-    letter-spacing: 0px;
-    color: #666666;
-    opacity: 1;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
+    var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-666666);
+  text-align: left;
+  font: normal normal normal 18px/21px Roboto;
+  letter-spacing: 0px;
+  color: #666666;
+  opacity: 1;
 }
