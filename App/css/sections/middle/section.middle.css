@@ -3,3 +3,79 @@
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #ffffff 0% 0% no-repeat padding-box;
 }
+
+.section-middle-title {
+  margin: 40px;
+  height: 30px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-26) / var(--unnamed-line-spacing-30)
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2d5676);
+  text-align: center;
+  font: normal normal bold 26px/30px Roboto;
+  letter-spacing: 0px;
+  color: #2d5676;
+  opacity: 1;
+}
+
+.section-middle-bloquote {
+  height: 141px;
+  margin: 10px;
+}
+.section-middle-bloquote-title {
+  height: 24px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    20px/24px var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-2988b5);
+  text-align: left;
+  font: normal normal bold 20px/24px Roboto;
+  letter-spacing: 0px;
+  color: #2988b5;
+  opacity: 1;
+}
+
+.section-middle-bloquote-paragraph {
+  height: 89px;
+  font: var(--unnamed-font-style-normal) normal
+    var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
+    var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  text-align: left;
+  font: normal normal normal 18px/21px Roboto;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+}
+.section-middle-bloquote-number {
+  width: 64px;
+  height: 64px;
+  background: transparent url("img/-.png") 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.section-middle-btn {
+  margin-left: 20px;
+  margin: 20px;
+  width: 306px;
+  height: 48px;
+  background: var(--unnamed-color-e2173d) 0% 0% no-repeat padding-box;
+  background: #e2173d 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+.section-middle-btn-label {
+  width: 160px;
+  height: 21px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-18) / var(--unnamed-line-spacing-21)
+    var(--unnamed-font-family-roboto);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-ffffff);
+  text-align: center;
+  font: normal normal bold 18px/21px Roboto;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+}
