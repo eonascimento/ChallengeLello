@@ -116,3 +116,14 @@
   color: #ffffff;
   opacity: 1;
 }
+
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  .section-header {
+    height: 500px;
+  }
+}
+@media only screen and (max-width: 787px) {
+  .section-header {
+    height: 900px;
+  }
+}
