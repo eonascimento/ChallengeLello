@@ -1,5 +1,4 @@
 .section-middle {
-  height: 616px;
   background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
   background: #ffffff 0% 0% no-repeat padding-box;
 }
@@ -19,11 +18,9 @@
 }
 
 .section-middle-bloquote {
-  height: 141px;
   margin: 10px;
 }
 .section-middle-bloquote-title {
-  height: 24px;
   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
     20px/24px var(--unnamed-font-family-roboto);
   letter-spacing: var(--unnamed-character-spacing-0);
@@ -33,10 +30,12 @@
   letter-spacing: 0px;
   color: #2988b5;
   opacity: 1;
+  display: flex;
+  align-items: center;
+  justify-content: start;
 }
 
 .section-middle-bloquote-paragraph {
-  height: 89px;
   font: var(--unnamed-font-style-normal) normal
     var(--unnamed-font-weight-normal) var(--unnamed-font-size-18) /
     var(--unnamed-line-spacing-21) var(--unnamed-font-family-roboto);
@@ -48,10 +47,20 @@
   opacity: 1;
 }
 .section-middle-bloquote-number {
-  width: 64px;
-  height: 64px;
-  background: transparent url("img/-.png") 0% 0% no-repeat padding-box;
+  width: 32px !important;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: #ebf6fa;
   opacity: 1;
+  margin-right: 5px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
 }
 
 .section-middle-btn {
@@ -78,8 +87,17 @@
   color: #ffffff;
   opacity: 1;
 }
-@media only screen and (max-width: 787px) {
-  .section-footer {
-    height: 900px;
+
+.grid-middle {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+@media (min-width: 300px) and (max-width: 787px) {
+  .grid-middle {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
   }
 }

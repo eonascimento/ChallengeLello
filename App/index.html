@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-<meta charset="uft-8">
 
 <head>
     <title>Challenge Lello</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/base/normalize.css">
     <link rel="stylesheet" href="css/base/reset.css">
     <link rel="stylesheet" href="css/base/grid.css">
@@ -12,13 +13,14 @@
     <link rel="stylesheet" href="css/sections/footer/section-footer.css">
     <link rel="stylesheet" href="css/sections/middle/section-middle.css">
     <link rel="stylesheet" href="css/sections/faq/section-faq.css">
+    <link rel="stylesheet" href="css/components/collapse.css" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="section-header">
-            <div class="grid-8">
-                <div class="section-header-content">
+    <div class="section-header">
+        <div class="container">
+            <div class="grid-section-header">
+                <div>
                     <h1 class="section-header-content-title">Lorem ipsum dolor sit amet consectetur</h1>
                     <P class="section-header-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
                     <ul class="section-header-content-list">
@@ -27,9 +29,7 @@
                         <li class="section-header-content-list-item">In voluptate velit esse cillum dolore eu fugiat nulla</li>
                     </ul>
                 </div>
-            </div>
-            <div class="grid-8">
-                <div class="grid-16 section-header-form">
+                <div class="section-header-form">
                     <label class="section-header-form-title">Faça seu cadastro!</label>
                     <br>
                     <form action="enviar" method="POST">
@@ -44,92 +44,135 @@
                 </div>
             </div>
         </div>
-        <div class="section-middle">
-            <div class="grid-16">
-                <h1 class="section-middle-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-            </div>
-            <div class="grid-8 section-middle-bloquote">
-                <h2 class="section-middle-bloquote-title"><span class="section-middle-bloquote-number">1</span>Lorem ipsum dolor sit amet consectetur</h2>
+    </div>
+    <div class="container section-middle">
+        <div class="">
+            <h1 class="section-middle-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt?</h1>
+        </div>
+        <div class="grid-middle">
+            <div class="section-middle-bloquote">
+                <h2 class="section-middle-bloquote-title">
+                    <div class="section-middle-bloquote-number">1</div>
+                    <span>Lorem ipsum dolor sit amet consectetur</span>
+                </h2>
                 <p class="section-middle-bloquote-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </div>
-            <div class="grid-8 section-middle-bloquote">
+            <div class="section-middle-bloquote">
                 <h2 class="section-middle-bloquote-title"><span class="section-middle-bloquote-number">2</span>Lorem ipsum dolor sit amet consectetur</h2>
                 <p class="section-middle-bloquote-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </div>
-            <div class="grid-8 section-middle-bloquote">
+            <div class="section-middle-bloquote">
                 <h2 class="section-middle-bloquote-title"><span class="section-middle-bloquote-number">4</span>Lorem ipsum dolor sit amet consectetur</h2>
                 <p class="section-middle-bloquote-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </div>
-            <div class="grid-8 section-middle-bloquote">
+            <div class="section-middle-bloquote">
                 <h2 class="section-middle-bloquote-title"><span class="section-middle-bloquote-number">4</span>Lorem ipsum dolor sit amet consectetur</h2>
                 <p class="section-middle-bloquote-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
             </div>
-            <div class="grid-16">
+        </div>
+        <div class="btn-container">
+            <button class="section-middle-btn" id="enviar" type="submit">
+                <span class="section-middle-btn-label">Quero me cadastrar</span>
+            </button>
+        </div>
+    </div>
+    <div class="section-footer">
+        <div class="container">
+            <div class="footer-title-container">
+                <h1 class="section-footer-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore</h1>
+            </div>
+            <div class="grid-footer">
+                <div class="section-footer-bloquote">
+                    <div class="section-footer-bloquote-content">
+                        <img class="section-middle-bloquote-img">
+                        <h2 class="section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
+                        <p class="section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+                    <div class="section-footer-bloquote-content">
+                        <img class="section-middle-bloquote-img">
+                        <h2 class="section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
+                        <p class="section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="section-footer-bloquote-content">
+                        <img class="section-middle-bloquote-img">
+                        <h2 class="section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
+                        <p class="section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="section-footer-bloquote-content">
+                        <img class="section-middle-bloquote-img">
+                        <h2 class="section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
+                        <p class="section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="section-footer-bloquote-content">
+                        <img class="section-middle-bloquote-img">
+                        <h2 class="section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
+                        <p class="section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                    </div>
+
+                </div>
+                <div class="footer-img">
+                    <img src="img/consultoria.png">
+                </div>
+            </div>
+            <div class="btn-container">
                 <button class="section-middle-btn" id="enviar" type="submit">
                     <span class="section-middle-btn-label">Quero me cadastrar</span>
                 </button>
             </div>
         </div>
-        <div class="section-footer">
-            <div class="grid-16">
-                <h1 class="section-footer-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore</h1>
+    </div>
+    <div class="container section-faq">
+        <h1 class="section-faq-title">Perguntas Frequentes</h1>
+        <div class="section-faq-bloquote">
+            <div class="collapse-container mb">
+                <button class="collapsible">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt?</button>
+                <div class="content">
+                    <p class="section-footer-questions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+                    <ol>
+                        <li>
+                            <h2 class="section-footer-questions">1. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
+                        </li>
+                        <li>
+                            <h2 class="section-footer-questions">2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h2>
+                        </li>
+                        <li>
+                            <h2 class="section-footer-questions">3. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
+                        </li>
+                    </ol>
+                </div>
             </div>
-            <div class="grid-8 section-footer-bloquote">
-                <div class="grid-16 section-footer-bloquote-content">
-                    <img class="section-middle-bloquote-img">
-                    <h2 class="grid-16 section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
-                    <p class="grid-16 section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
-                <div class="grid-16 section-footer-bloquote-content">
-                    <img class="section-middle-bloquote-img">
-                    <h2 class="grid-16 section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
-                    <p class="grid-16 section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div class="grid-16 section-footer-bloquote-content">
-                    <img class="section-middle-bloquote-img">
-                    <h2 class="grid-16 section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
-                    <p class="grid-16 section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div class="grid-16 section-footer-bloquote-content">
-                    <img class="section-middle-bloquote-img">
-                    <h2 class="grid-16 section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
-                    <p class="grid-16 section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                </div>
-                <div class="grid-16 section-footer-bloquote-content">
-                    <img class="section-middle-bloquote-img">
-                    <h2 class="grid-16 section-footer-bloquote-content-title">Lorem ipsum dolor sit amet</h2>
-                    <p class="grid-16 section-footer-bloquote-content-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                </div>
 
+            <div class="collapse-container mb">
+                <button class="collapsible">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt?</button>
+                <div class="content">
+                    <p class="section-footer-questions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
             </div>
-            <div class="grid-8 section-middle-bloquote">
-            </div>
-        </div>
-        <div class="section-faq">
-            <div class="grid-16">
-                <h1 class="section-faq-title">Perguntas Frequentes</h1>
-            </div>
-            <div class="grid-16 section-faq-bloquote">
-                <h2 class="section-footer-questions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt?</h2>
-                <ol>
-                    <li>
-                        <h2 class="section-footer-questions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
-                    </li>
-                    <li>
-                        <h2 class="section-footer-questions">1. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h2>
-                    </li>
-                    <li>
-                        <h2 class="section-footer-questions">2. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h2>
-                    </li>
-                    <li>
-                        <h2 class="section-footer-questions">3. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h2>
-                    </li>
-                </ol>
-                <h2 class="section-footer-questions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt?</h2>
-                <h2 class="section-footer-questions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt?</h2>
+
+            <div class="collapse-container">
+                <button class="collapsible">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt?</button>
+                <div class="content">
+                    <p class="section-footer-questions">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+                </div>
             </div>
         </div>
     </div>
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>

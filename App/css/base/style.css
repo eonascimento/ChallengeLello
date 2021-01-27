@@ -63,3 +63,7 @@
   letter-spacing: var(--unnamed-character-spacing-0);
   color: var(--unnamed-color-666666);
 }
+
+.mb {
+  margin-bottom: 10px;
+}

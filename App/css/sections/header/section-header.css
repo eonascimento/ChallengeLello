@@ -1,7 +1,5 @@
 .section-header {
-  height: 400px;
-  background: var(--unnamed-color-ebf6fa) 0% 0% no-repeat padding-box;
-  background: #ebf6fa 0% 0% no-repeat padding-box;
+  background: #ebf6fa;
 }
 
 .section-header-content {
@@ -117,13 +115,17 @@
   opacity: 1;
 }
 
-@media only screen and (min-width: 788px) and (max-width: 979px) {
-  .section-header {
-    height: 500px;
-  }
+.grid-section-header {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
-@media only screen and (max-width: 787px) {
-  .section-header {
-    height: 900px;
+
+@media (min-width: 300px) and (max-width: 787px) {
+  .grid-section-header {
+    grid-template-columns: 1fr;
+  }
+  .section-header-form {
+    width: 100%;
+    margin: 0 0 20px 0;
   }
 }
